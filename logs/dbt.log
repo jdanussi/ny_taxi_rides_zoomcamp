@@ -1,0 +1,274 @@
+[0m21:51:53.453965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70601932f400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70601754b460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70601754b3d0>]}
+
+
+============================== 21:51:53.458135 | 1c782f8f-d896-4786-a640-165344b098be ==============================
+[0m21:51:53.458135 [info ] [MainThread]: Running with dbt=1.7.11
+[0m21:51:53.458888 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/jdanussi/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:52:22.198232 [debug] [MainThread]: Starter project path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:52:22.206916 [info ] [MainThread]: 
+Your new dbt project "taxi_rides_ny" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:52:22.207974 [info ] [MainThread]: Setting up your profile.
+[0m21:55:19.934784 [info ] [MainThread]: Profile taxi_rides_ny written to /home/jdanussi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:55:19.937935 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 206.55261, "process_user_time": 2.55581, "process_kernel_time": 0.095395, "process_mem_max_rss": "91340", "process_in_blocks": "352", "process_out_blocks": "96"}
+[0m21:55:19.940205 [debug] [MainThread]: Command `dbt init` succeeded at 21:55:19.939530 after 206.55 seconds
+[0m21:55:19.942029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70601932f400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x706016edac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70601754b730>]}
+[0m21:55:19.943674 [debug] [MainThread]: Flushing usage events
+[0m21:58:10.292645 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c17537d7400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1751c53460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1751c53400>]}
+
+
+============================== 21:58:10.296051 | 266e4a3e-7da1-4bdd-a6f0-667138199980 ==============================
+[0m21:58:10.296051 [info ] [MainThread]: Running with dbt=1.7.11
+[0m21:58:10.297001 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/jdanussi/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:58:10.297768 [info ] [MainThread]: dbt version: 1.7.11
+[0m21:58:10.298373 [info ] [MainThread]: python version: 3.10.12
+[0m21:58:10.298999 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m21:58:10.299649 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m21:58:11.258526 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m21:58:11.259646 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m21:58:11.260475 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m21:58:11.261204 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:58:11.262267 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.0266305, "process_user_time": 3.658201, "process_kernel_time": 0.543139, "process_mem_max_rss": "185468", "process_in_blocks": "224", "process_out_blocks": "16", "command_success": false}
+[0m21:58:11.263110 [debug] [MainThread]: Command `dbt debug` failed at 21:58:11.262918 after 1.03 seconds
+[0m21:58:11.263760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c17537d7400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1753efe8c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1751c535e0>]}
+[0m21:58:11.264358 [debug] [MainThread]: Flushing usage events
+[0m22:03:12.762755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x737360ddb400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73735f257460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73735f257400>]}
+
+
+============================== 22:03:12.765852 | 3d57d645-cd18-48b2-8387-7294cc736b2a ==============================
+[0m22:03:12.765852 [info ] [MainThread]: Running with dbt=1.7.11
+[0m22:03:12.766614 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jdanussi/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m22:03:12.767432 [info ] [MainThread]: dbt version: 1.7.11
+[0m22:03:12.768028 [info ] [MainThread]: python version: 3.10.12
+[0m22:03:12.768652 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m22:03:12.769282 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m22:03:13.696322 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m22:03:13.697523 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m22:03:13.698183 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m22:03:13.699102 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:03:13.700157 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.99401146, "process_user_time": 3.536835, "process_kernel_time": 0.439606, "process_mem_max_rss": "186092", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m22:03:13.701120 [debug] [MainThread]: Command `dbt debug` failed at 22:03:13.700792 after 0.99 seconds
+[0m22:03:13.701764 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x737360ddb400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73735f2575e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73735f255120>]}
+[0m22:03:13.702454 [debug] [MainThread]: Flushing usage events
+[0m22:03:40.112137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711810bd9ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71180f057490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71180f057430>]}
+
+
+============================== 22:03:40.115151 | edb94be4-65ec-47d5-84b3-9cc719742543 ==============================
+[0m22:03:40.115151 [info ] [MainThread]: Running with dbt=1.7.11
+[0m22:03:40.115974 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/jdanussi/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:03:40.116737 [info ] [MainThread]: dbt version: 1.7.11
+[0m22:03:40.117549 [info ] [MainThread]: python version: 3.10.12
+[0m22:03:40.118163 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m22:03:40.118773 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m22:03:41.037009 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m22:03:41.037693 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m22:03:41.038258 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m22:03:41.038980 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:03:41.040002 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.9809625, "process_user_time": 3.543629, "process_kernel_time": 0.515946, "process_mem_max_rss": "186264", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m22:03:41.040867 [debug] [MainThread]: Command `dbt debug` failed at 22:03:41.040618 after 0.98 seconds
+[0m22:03:41.041567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711810bd9ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71180f055120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71180f0576d0>]}
+[0m22:03:41.042329 [debug] [MainThread]: Flushing usage events
+[0m22:07:59.545584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223b9b33400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223b7d4b430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223b7d4b3d0>]}
+
+
+============================== 22:07:59.548365 | 31fc320d-e331-4e24-a099-6d9536ac013b ==============================
+[0m22:07:59.548365 [info ] [MainThread]: Running with dbt=1.7.11
+[0m22:07:59.549181 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/jdanussi/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:07:59.549884 [info ] [MainThread]: dbt version: 1.7.11
+[0m22:07:59.550466 [info ] [MainThread]: python version: 3.10.12
+[0m22:07:59.551017 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m22:07:59.551569 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m22:08:00.453307 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m22:08:00.454049 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m22:08:00.454734 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m22:08:00.455456 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:08:00.456536 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.9599749, "process_user_time": 3.515266, "process_kernel_time": 0.473517, "process_mem_max_rss": "186056", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m22:08:00.457658 [debug] [MainThread]: Command `dbt debug` failed at 22:08:00.457448 after 0.96 seconds
+[0m22:08:00.458591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223b9b33400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223b9f93a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223b7ced4b0>]}
+[0m22:08:00.459449 [debug] [MainThread]: Flushing usage events
+[0m22:08:48.353554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x725173b8abc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x725171d5f430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x725171d5f3d0>]}
+
+
+============================== 22:08:48.357420 | 4cfc8653-0a5a-4f03-b5f4-1e56a9343731 ==============================
+[0m22:08:48.357420 [info ] [MainThread]: Running with dbt=1.7.11
+[0m22:08:48.358873 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/jdanussi/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug --config-dir', 'send_anonymous_usage_stats': 'True'}
+[0m22:08:48.360282 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/jdanussi/.dbt
+[0m22:08:48.361691 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.09144633, "process_user_time": 2.378723, "process_kernel_time": 0.111564, "process_mem_max_rss": "86956", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m22:08:48.362914 [debug] [MainThread]: Command `dbt debug` succeeded at 22:08:48.362591 after 0.09 seconds
+[0m22:08:48.363733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x725173b8abc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x725171d5f6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x725171d5f6a0>]}
+[0m22:08:48.364887 [debug] [MainThread]: Flushing usage events
+[0m22:10:57.883975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1b31392d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1b2f563400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1b2f5633a0>]}
+
+
+============================== 22:10:57.886847 | e4d6571a-9da6-45d5-aafc-4d1d4923fe98 ==============================
+[0m22:10:57.886847 [info ] [MainThread]: Running with dbt=1.7.11
+[0m22:10:57.887715 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/jdanussi/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:10:57.888404 [info ] [MainThread]: dbt version: 1.7.11
+[0m22:10:57.888951 [info ] [MainThread]: python version: 3.10.12
+[0m22:10:57.889614 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m22:10:57.890208 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m22:10:58.810590 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m22:10:58.811423 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m22:10:58.812089 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m22:10:58.813018 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:10:58.814226 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.98548746, "process_user_time": 3.52195, "process_kernel_time": 0.454188, "process_mem_max_rss": "185980", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m22:10:58.815331 [debug] [MainThread]: Command `dbt debug` failed at 22:10:58.815055 after 0.99 seconds
+[0m22:10:58.815943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1b31392d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1b2f4ba800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a1b2f563580>]}
+[0m22:10:58.816533 [debug] [MainThread]: Flushing usage events
+[0m13:34:23.523734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7c50f92e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7c4f163400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7c4f1633a0>]}
+
+
+============================== 13:34:23.527092 | e7e21066-4f8d-4087-97ba-e6cdde5145b4 ==============================
+[0m13:34:23.527092 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:34:23.528046 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/jdanussi/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:34:23.528747 [info ] [MainThread]: dbt version: 1.7.11
+[0m13:34:23.529382 [info ] [MainThread]: python version: 3.10.12
+[0m13:34:23.530017 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m13:34:23.530645 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m13:34:24.825666 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m13:34:24.826449 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m13:34:24.827133 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m13:34:24.827890 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:34:24.829151 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.3537594, "process_user_time": 3.180714, "process_kernel_time": 0.461144, "process_mem_max_rss": "183688", "process_in_blocks": "200728", "process_out_blocks": "16", "command_success": false}
+[0m13:34:24.830006 [debug] [MainThread]: Command `dbt debug` failed at 13:34:24.829819 after 1.35 seconds
+[0m13:34:24.830637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7c50f92e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7c4f163640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7c4f1634f0>]}
+[0m13:34:24.831415 [debug] [MainThread]: Flushing usage events
+[0m13:43:14.425441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7289bafcded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7289b9203490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7289b9203430>]}
+
+
+============================== 13:43:14.428212 | cd661fc1-83b6-48cd-849a-5c05c1b7e100 ==============================
+[0m13:43:14.428212 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:43:14.429020 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jdanussi/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:43:14.429798 [info ] [MainThread]: dbt version: 1.7.11
+[0m13:43:14.430442 [info ] [MainThread]: python version: 3.10.12
+[0m13:43:14.431069 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m13:43:14.431681 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m13:43:15.292840 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m13:43:15.293698 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m13:43:15.294532 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m13:43:15.295250 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:43:15.296342 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.9199812, "process_user_time": 3.442301, "process_kernel_time": 0.536358, "process_mem_max_rss": "184848", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m13:43:15.297064 [debug] [MainThread]: Command `dbt debug` failed at 13:43:15.296864 after 0.92 seconds
+[0m13:43:15.297712 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7289bafcded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7289b92036d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7289b9203580>]}
+[0m13:43:15.298303 [debug] [MainThread]: Flushing usage events
+[0m13:44:10.642714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7975ddbd7400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7975dc053460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7975dc053400>]}
+
+
+============================== 13:44:10.645485 | f85da4fb-b573-4895-8559-66cf7d5cc86b ==============================
+[0m13:44:10.645485 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:44:10.646327 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/jdanussi/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug --config-dir', 'send_anonymous_usage_stats': 'True'}
+[0m13:44:10.647003 [info ] [MainThread]: To view your profiles.yml file, run:
+
+xdg-open /home/jdanussi/.dbt
+[0m13:44:10.647984 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.053666353, "process_user_time": 2.424751, "process_kernel_time": 0.088027, "process_mem_max_rss": "87056", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m13:44:10.648673 [debug] [MainThread]: Command `dbt debug` succeeded at 13:44:10.648499 after 0.05 seconds
+[0m13:44:10.649301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7975ddbd7400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7975dc053700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7975dc0536d0>]}
+[0m13:44:10.649863 [debug] [MainThread]: Flushing usage events
+[0m13:45:27.348416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afeeb5dee00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afee9813400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afee98133a0>]}
+
+
+============================== 13:45:27.351217 | bda2067d-067c-4c56-9b25-db7a27ceb186 ==============================
+[0m13:45:27.351217 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:45:27.351993 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/jdanussi/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:45:27.352677 [info ] [MainThread]: dbt version: 1.7.11
+[0m13:45:27.353201 [info ] [MainThread]: python version: 3.10.12
+[0m13:45:27.353809 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m13:45:27.354425 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m13:45:28.226509 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m13:45:28.227318 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m13:45:28.228025 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m13:45:28.228906 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:45:28.230208 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.93801856, "process_user_time": 3.327619, "process_kernel_time": 0.53929, "process_mem_max_rss": "184632", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m13:45:28.231085 [debug] [MainThread]: Command `dbt debug` failed at 13:45:28.230882 after 0.94 seconds
+[0m13:45:28.231624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afeeb5dee00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afee9813580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afee9811120>]}
+[0m13:45:28.232389 [debug] [MainThread]: Flushing usage events
+[0m13:45:28.402965 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m13:46:27.831586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a15cf1b5ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a15cd5d5750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a15cd5d6ad0>]}
+
+
+============================== 13:46:27.834610 | 00323549-b145-4be7-8b80-cf6ca75d3812 ==============================
+[0m13:46:27.834610 [info ] [MainThread]: Running with dbt=1.7.11
+[0m13:46:27.835433 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/jdanussi/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:46:27.836152 [info ] [MainThread]: dbt version: 1.7.11
+[0m13:46:27.836858 [info ] [MainThread]: python version: 3.10.12
+[0m13:46:27.837427 [info ] [MainThread]: python path: /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/env/bin/python3
+[0m13:46:27.838013 [info ] [MainThread]: os info: Linux-6.5.0-26-generic-x86_64-with-glibc2.35
+[0m13:46:27.949235 [info ] [MainThread]: Using profiles dir at /home/jdanussi/.dbt
+[0m13:46:27.950109 [info ] [MainThread]: Using profiles.yml file at /home/jdanussi/.dbt/profiles.yml
+[0m13:46:27.950687 [info ] [MainThread]: Using dbt_project.yml file at /home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml
+[0m13:46:27.957631 [info ] [MainThread]: adapter type: postgres
+[0m13:46:27.958379 [info ] [MainThread]: adapter version: 1.7.11
+[0m13:46:27.959034 [info ] [MainThread]: Configuration:
+[0m13:46:27.959654 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:46:27.960263 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:46:27.960945 [info ] [MainThread]: Required dependencies:
+[0m13:46:27.961790 [debug] [MainThread]: Executing "git --help"
+[0m13:46:27.964674 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:46:27.965976 [debug] [MainThread]: STDERR: "b''"
+[0m13:46:27.968475 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:46:27.969887 [info ] [MainThread]: Connection:
+[0m13:46:27.971772 [info ] [MainThread]:   host: localhost
+[0m13:46:27.974246 [info ] [MainThread]:   port: 5432
+[0m13:46:27.976215 [info ] [MainThread]:   user: root
+[0m13:46:27.977770 [info ] [MainThread]:   database: ny_taxi
+[0m13:46:27.979924 [info ] [MainThread]:   schema: dbt
+[0m13:46:27.982153 [info ] [MainThread]:   connect_timeout: 10
+[0m13:46:27.984595 [info ] [MainThread]:   role: None
+[0m13:46:27.987511 [info ] [MainThread]:   search_path: None
+[0m13:46:27.990793 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:46:27.992958 [info ] [MainThread]:   sslmode: None
+[0m13:46:27.993968 [info ] [MainThread]:   sslcert: None
+[0m13:46:27.995299 [info ] [MainThread]:   sslkey: None
+[0m13:46:27.996375 [info ] [MainThread]:   sslrootcert: None
+[0m13:46:27.997493 [info ] [MainThread]:   application_name: dbt
+[0m13:46:27.998666 [info ] [MainThread]:   retries: 1
+[0m13:46:28.000084 [info ] [MainThread]: Registered adapter: postgres=1.7.11
+[0m13:46:28.002052 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:46:28.004704 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:46:28.006485 [debug] [MainThread]: On debug: select 1 as id
+[0m13:46:28.008933 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:46:28.034518 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:46:28.037555 [debug] [MainThread]: On debug: Close
+[0m13:46:28.040638 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:46:28.042387 [info ] [MainThread]: [31m1 check failed:[0m
+[0m13:46:28.043747 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/jdanussi/git/DataTalksClub/ny_taxi_rides_zoomcamp/dbt_project.yml> not found
+
+[0m13:46:28.046715 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.26281413, "process_user_time": 2.50457, "process_kernel_time": 0.103857, "process_mem_max_rss": "93872", "process_in_blocks": "3264", "process_out_blocks": "24", "command_success": false}
+[0m13:46:28.049248 [debug] [MainThread]: Command `dbt debug` failed at 13:46:28.048685 after 0.27 seconds
+[0m13:46:28.050762 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:46:28.052561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a15cf1b5ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a15ccf45bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a15ccf44460>]}
+[0m13:46:28.054722 [debug] [MainThread]: Flushing usage events
