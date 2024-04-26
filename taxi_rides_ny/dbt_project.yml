@@ -39,5 +39,9 @@ models:
   taxi_rides_ny:
     +database: de-zoomcamp-2024-analytics
 
+seeds:
+  taxi_rides_ny:
+    +database: de-zoomcamp-2024-analytics
+
 vars:
   payment_type_values: [1, 2, 3, 4, 5, 6]
