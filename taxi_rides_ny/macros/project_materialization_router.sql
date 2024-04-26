@@ -5,23 +5,12 @@
     {% set production_database = 'de-zoomcamp-2024-prod' %}
 
     {% if custom_database_name %}
-
-    
         {% if target.name == "prod" %}
-
             {{ production_database }}
-
         {% else %}
-
             {{ custom_database_name }}
-
         {% endif %}
-        
-
     {% else %}
-
         {{ default_database }}
-
     {% endif %}
-
 {% endmacro %}
