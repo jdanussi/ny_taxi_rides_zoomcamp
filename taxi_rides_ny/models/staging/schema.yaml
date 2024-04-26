@@ -1,7 +1,7 @@
 sources:
   - name: staging
     database: de-zoomcamp-2024-418900
-    schema: week4
+    schema: taxy_raw
 
     tables:
       - name: green_tripdata
